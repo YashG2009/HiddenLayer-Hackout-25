@@ -1,0 +1,52 @@
+{
+    "users": {
+        "GovtAdmin": {
+            "name": "GovtAdmin",
+            "role": "Government",
+            "password_hash": "6b3d5e2a640e8e51dd596983fb563159dd641dd64ef4ef2865183fb0d9e3c5e8",
+            "frozen": false
+        },
+        "StatePollGujarat": {
+            "name": "StatePollGujarat",
+            "role": "State Poll",
+            "password_hash": "2fb5ecea2ea13e21a31c7728beb2c10fb97938aa946863b07d9396df38c19a0c",
+            "frozen": false
+        },
+        "SomnathProducers": {
+            "name": "SomnathProducers",
+            "role": "Producer",
+            "state_verification_no": "SVN-GJ-001",
+            "capacity": 5000,
+            "password_hash": "be845a3c4d15d1348170c3170676b384df74edafa7b6b8649f2e2740ab5e8880",
+            "frozen": true
+        },
+        "Ammonia Factory": {
+            "name": "Ammonia Factory",
+            "role": "Factory",
+            "industry_type": "Ammonia",
+            "industry_consumption": 20000,
+            "password_hash": "0ba71303c75624901a92170d2eab1c4810d20e9e07772085505f7c31f73139db",
+            "frozen": false
+        },
+        "CitizenOne": {
+            "name": "CitizenOne",
+            "role": "Citizen",
+            "password_hash": "89cba9591d65b7fe7d1f6d08085b1a02a6e24dc9e14905f89b7a7615aa2a1134",
+            "frozen": false
+        }
+    },
+    "blockchain": {
+        "chain": [],
+        "current_transactions": []
+    },
+    "pending_issuances": {
+        "ISSUE-3": {
+            "producer_name": "SomnathProducers",
+            "amount": 400000,
+            "timestamp": "2025-08-31 07:58:27",
+            "status": "Under Scrutiny"
+        }
+    },
+    "quotas": {},
+    "issuance_counter": 5
+}
